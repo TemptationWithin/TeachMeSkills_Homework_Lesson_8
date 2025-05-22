@@ -1,16 +1,16 @@
 # TeachMeSkills_Homework_Lesson_8
 Exceptions
 /**
- * Написать программу.
- * На вход передать строку(будем считать, что это номер документа).
- * Номер документа имеет формат xxxx-yyy-xxxx-yyy-xyxy
- * где x - это число, а y - это буква.
- *
- * Вывести на экран в одну строку два первых блока по 4 цифры
- * (это сделайте с помощью использования Pattern и Matcher)
- *
- * В программе для работы со строками из прошлого задания добавьте работу с исключениями.
- * А именно, создайте два своих собственных исключения. И нужно 'бросать' их в случаях когда
- * 1) входная строка с номером документа невалидного формата(например, большей или меньшей длинны) ,
- * 2) если входная строка начинается с последовательности 1111, тоже 'бросить' исключение
- */
+* Write a program.
+* Pass a string to the input (we will assume that this is a document number).
+* The document number has the format xxxx-yyy-xxxx-yyy-xyxy
+* where x is a number, and y is a letter.
+*
+* Display the first two blocks of 4 digits on one line
+* ​​(do this using Pattern and Matcher)
+*
+* In the program for working with strings from the previous task, add work with exceptions.
+* Namely, create two of your own exceptions. And you need to 'throw' them in cases when
+* 1) the input string with the document number is of an invalid format (for example, longer or shorter),
+* 2) if the input string begins with the sequence 1111, also 'throw' an exception
+*/
